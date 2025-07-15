@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-gradient-to-r from-wood-light to-wood-medium border-b border-border">
+      <header className="bg-gradient-to-r from-wood-light/80 to-wood-medium/70 backdrop-blur-2xl  w-full fixed z-[99999] top-0">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
