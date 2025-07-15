@@ -1,6 +1,8 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Instagram, Facebook } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 interface ContactModalProps {
   open: boolean;
@@ -33,7 +35,7 @@ const ContactModal = ({ open, onOpenChange }: ContactModalProps) => {
             variant="outline"
             className="h-16 rounded-2xl border-green-500 text-green-600 hover:bg-green-50"
           >
-            <MessageCircle className="h-6 w-6 mr-3" />
+            <FaWhatsapp className="h-6 w-6 mr-3" />
             WhatsApp
           </Button>
           
