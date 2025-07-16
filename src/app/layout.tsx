@@ -13,21 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tricô Artesanal com Amor | Ecione Rosario Vitor",
+  title: "Crochê Artesanal com Amor | Ecione Rosario",
   description:
     "Bonecas, roupas e acessórios feitos à mão com carinho. Encomende peças únicas que aquecem o coração.",
   openGraph: {
-    title: "Tricô Artesanal com Amor | Ecione Rosario Vitor",
+    title: "Crochê Artesanal com Amor | Ecione Rosario",
     description:
       "Bonecas, roupas e acessórios feitos à mão com carinho. Encomende peças únicas que aquecem o coração.",
     url: "https://seudominio.com", 
-    siteName: "Ecione Rosario Vitor",
+    siteName: "Ecione Rosario",
     images: [
       {
         url: "/images/hero.jpg", 
         width: 1200,
         height: 630,
-        alt: "Tricô Artesanal com Amor por Ecione Rosario Vitor",
+        alt: "Crochê Artesanal com Amor por Ecione Rosario",
       },
     ],
     locale: "pt_BR",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tricô Artesanal com Amor | Ecione Rosario Vitor",
+    title: "Crochê Artesanal com Amor | Ecione Rosario",
     description:
       "Peças feitas à mão com dedicação: bonecas, roupas e acessórios que aquecem o coração.",
     images: ["/images/hero.jpg"], 

@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <Heart className="h-6 w-6 text-wood-accent" />
-              <h3 className="text-xl font-bold">Ecione Rosario Vitor</h3>
+              <h3 className="text-xl font-bold">Ecione Rosario</h3>
             </div>
             <p className="text-wood-light/80">
-              Tricô artesanal feito com amor e dedicação. Cada peça conta uma
+              Crochê artesanal feito com amor e dedicação. Cada peça conta uma
               história única.
             </p>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="border-t border-wood-light/20 mt-8 pt-8 text-center">
           <p className="text-wood-light/70">
-            © 2025 Ecione Rosario Vitor - Tricô Artesanal. Feito com ❤️ e muito
+            © 2025 Ecione Rosario - Crochê Artesanal. Feito com ❤️ e muito
             carinho.
           </p>
         </div>

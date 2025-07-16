@@ -11,16 +11,16 @@ interface ContactModalProps {
 
 const ContactModal = ({ open, onOpenChange }: ContactModalProps) => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5511999999999?text=Olá! Vim pelo site e gostaria de mais informações sobre seus trabalhos.", "_blank");
+    window.open("https://wa.me/5527997162667?text=Olá! Vim pelo site e gostaria de mais informações sobre seus trabalhos.", "_blank");
   };
 
   const handleInstagram = () => {
-    window.open("https://instagram.com/ecione.trico", "_blank");
+    window.open("https://www.instagram.com/ecione.rosario/", "_blank");
   };
 
-  const handleFacebook = () => {
-    window.open("https://facebook.com/ecione.trico", "_blank");
-  };
+  // const handleFacebook = () => {
+  //   window.open("https://facebook.com/ecione.trico", "_blank");
+  // };
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -49,7 +49,7 @@ const ContactModal = ({ open, onOpenChange }: ContactModalProps) => {
             Instagram
           </Button>
           
-          <Button 
+          {/* <Button 
             onClick={handleFacebook}
             size="lg" 
             variant="outline"
@@ -57,7 +57,7 @@ const ContactModal = ({ open, onOpenChange }: ContactModalProps) => {
           >
             <Facebook className="h-6 w-6 mr-3" />
             Facebook
-          </Button>
+          </Button> */}
         </div>
       </DialogContent>
     </Dialog>

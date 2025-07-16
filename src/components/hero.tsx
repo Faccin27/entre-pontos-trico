@@ -1,8 +1,13 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Sparkles, Heart, Star } from "lucide-react";
 import Image from "next/image";
+import ContactModal from "./contactModal";
+import { useState } from "react";
 const Hero = () => {
+  const [contactModalOpen, setContactModalOpen] = useState(false);
+
   return (
     <section className="relative bg-gradient-to-b from-background to-wood-light py-16 md:py-24">
       <div className="container mx-auto px-4">
@@ -14,7 +19,7 @@ const Hero = () => {
                 <span className="text-sm font-medium">Artesanato com Amor</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                Tricô que
+                Crochê que
                 <span className="text-primary"> Aquece</span> o
                 <span className="text-primary"> Coração</span>
               </h1>
@@ -26,11 +31,20 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="shadow-warm">
+              <Button
+                size="lg"
+                className="shadow-warm"
+                onClick={() => (window.location.href = "#portfolio")}
+              >
                 <Heart className="h-5 w-5 mr-2" />
                 Ver Meus Trabalhos
               </Button>
-              <Button variant="outline" size="lg" className="bg-background/80">
+              <Button
+                variant="outline"
+                size="lg"
+                className="bg-background/80"
+                onClick={() => setContactModalOpen(true)}
+              >
                 <Star className="h-5 w-5 mr-2" />
                 Fazer Encomenda
               </Button>
@@ -72,6 +86,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <ContactModal
+        open={contactModalOpen}
+        onOpenChange={setContactModalOpen}
+      />
     </section>
   );
 };

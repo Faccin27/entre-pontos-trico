@@ -19,7 +19,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Bonecas Artesanais",
-      description: "Bonecas únicas feitas com técnicas tradicionais de tricô",
+      description: "Bonecas únicas feitas com técnicas tradicionais de Crochê",
       image: '/images/dolls.png',
       category: "Bonecas",
       price: "A partir de R$ 80"
@@ -51,7 +51,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: "Brinquedos de Tricô",
+      title: "Brinquedos de Crochê",
       description: "Brinquedos seguros e divertidos para crianças",
       image: '/images/dolls.png',
       category: "Brinquedos",
@@ -80,7 +80,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-b from-wood-light to-background">
+    <section className="py-16 bg-gradient-to-b from-wood-light to-background" id="portfolio">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <Badge variant="outline" className="mb-4">

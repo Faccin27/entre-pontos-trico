@@ -12,7 +12,7 @@ const Header = () => {
 
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/5511999999999?text=Olá! Vim pelo site e gostaria de fazer um orçamento.",
+      "https://wa.me/5527997162667?text=Olá! Vim pelo site e gostaria de fazer um orçamento.",
       "_blank"
     );
   };
@@ -26,10 +26,10 @@ const Header = () => {
               <FaRegHeart className="h-8 w-8 text-primary" />
               <div>
                 <h1 className="text-2xl font-bold text-foreground">
-                  Ecione Rosario Vitor
+                  Ecione Rosario
                 </h1>
                 <p className="text-sm text-muted-foreground">
-                  Tricô Artesanal com Amor
+                  Crochê Artesanal com Amor
                 </p>
               </div>
             </div>

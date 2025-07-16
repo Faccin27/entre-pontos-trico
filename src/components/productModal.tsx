@@ -1,7 +1,9 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { MessageCircle, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 interface Product {
   id: number;
@@ -23,7 +25,7 @@ const ProductModal = ({ open, onOpenChange, product }: ProductModalProps) => {
 
   const handleWhatsAppOrder = () => {
     const message = `Olá! Vim pelo site e tenho interesse no produto "${product.title}". Gostaria de mais informações e orçamento. Obrigado!`;
-    window.open(`https://wa.me/5511999999999?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/5527997162667?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -72,7 +74,7 @@ const ProductModal = ({ open, onOpenChange, product }: ProductModalProps) => {
             size="lg" 
             className="w-full h-12 bg-green-600 hover:bg-green-700 text-white"
           >
-            <MessageCircle className="h-5 w-5 mr-2" />
+            <FaWhatsapp className="h-6 w-6 mr-1" />
             Tenho Interesse - WhatsApp
           </Button>
         </div>

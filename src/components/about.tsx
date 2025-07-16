@@ -37,11 +37,11 @@ const About = () => {
                 Sobre Mim
               </Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                A Arte do Tricô que <span className="text-primary">Encanta</span>
+                A Arte do Crochê que <span className="text-primary">Encanta</span>
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Olá! Sou Ecione Rosario Vitor, apaixonada pela arte do tricô há mais de uma década. 
+                  Olá! Sou Ecione Rosario, apaixonada pela arte do Crochê há mais de uma década. 
                   O que começou como um hobby se transformou na minha maior paixão e forma de expressão artística.
                 </p>
                 <p>
